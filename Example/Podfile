@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'RJCircularCollectionViewLayout_Example', :exclusive => true do
+target 'RJCircularCollectionViewLayout_Example' do
   pod "RJCircularCollectionViewLayout", :path => "../"
 end
 
-target 'RJCircularCollectionViewLayout_Tests', :exclusive => true do
+target 'RJCircularCollectionViewLayout_Tests' do
   pod "RJCircularCollectionViewLayout", :path => "../"
 
   

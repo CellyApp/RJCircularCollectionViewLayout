@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4705033897157594A59A6ACE62AE5F /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E3E198AC2FC4FBD4B02D1972DC0A4B /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50A31818E644D31A5D27366824589416 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F6F65531BA2A9380290D2B32AEF5C9 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A9249EEE51CFC6DB34EC2D1C472477D /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEBDC3B40F39E23AE4300996CE31 /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m */; };
-		64EE333ADB623A5E72388053B111BD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		757A19E9853C6A6FFDA99BC634695DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7C5BFA397E8EF1C97742F0249386A7E5 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8AFAF67914A3E920A38D861BC18AA /* CircularCollectionViewLayout.swift */; };
-		871111C44DE2379EEC68E69E0441FAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C1F4EA13516BC9F40DC295083D5209FE /* RJCircularCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A4365EFF0568817981713399FFD7EA /* RJCircularCollectionViewLayout-dummy.m */; };
-		D66751D86DEAA34357A57018FB4E425A /* RJCircularCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B350BE0A1D70307534B3ADA02F460246 /* RJCircularCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF86544E22027DB4DB0A515801CDC91E /* Pods-RJCircularCollectionViewLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931BDD0BF52045DDC82A5902420E7860 /* Pods-RJCircularCollectionViewLayout_Example-dummy.m */; };
-		F6519D72661D7E727AC00615E6498106 /* RJCircularCollectionViewLayout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F74B1E93ED30625D164118AB184911DC /* RJCircularCollectionViewLayout.bundle */; };
+		0F4C4E350BCCCDD68956EC4FF4A43EB8 /* RJCircularCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE2EB6CC98DCF1971089E8557F4C6D6 /* RJCircularCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3074939B31F4A98D459EFB0185A87997 /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEBDC3B40F39E23AE4300996CE31 /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m */; };
+		3D563FED4CA82D9C985D01139FE6F34D /* Pods-RJCircularCollectionViewLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931BDD0BF52045DDC82A5902420E7860 /* Pods-RJCircularCollectionViewLayout_Example-dummy.m */; };
+		3D5B79D7E2E63435DBEA315167129FB6 /* RJCircularCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FD62F1A61479054D4A01AB8F234627 /* RJCircularCollectionViewLayout-dummy.m */; };
+		4693FBB22F7AFB8DF43CAA99A2232144 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC565A0642D1B9DC0162818F343F2D30 /* CircularCollectionViewLayout.swift */; };
+		4A4329606B7A46F744390D70E95EC6F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		93AF08F68C0E32B16BB8A01458331EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C5C1311A9A835EB230BDD7CD4063E9BC /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E3E198AC2FC4FBD4B02D1972DC0A4B /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76256C194509BF7F97B2298DA04A755 /* RJCircularCollectionViewLayout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81F4632DE97740F35F9A9D951AC7AB00 /* RJCircularCollectionViewLayout.bundle */; };
+		D58534459110372EC14C67E0D6A166F8 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F6F65531BA2A9380290D2B32AEF5C9 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F17DFFD8E06C136D2256491994F202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54B4ED30155014DFBE24B7E1D4264022 /* PBXContainerItemProxy */ = {
+		2671AC46D1AE0FE1D06083A0AC0019CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4C6916B5D00E282C05008B64C1A6CA5;
+			remoteGlobalIDString = AEB44E860B9B8D5FE1903E0A6EC82734;
 			remoteInfo = RJCircularCollectionViewLayout;
 		};
-		6BF308DD9EB5EA766F282A3D88EBDE7F /* PBXContainerItemProxy */ = {
+		3F33741E08AE5A2B0DE193E194B64711 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D923918F6FC3FC716C850E3B0EC7BA5;
+			remoteGlobalIDString = 9DA92D7D5E06A417C75EA0AD690DEA3B;
 			remoteInfo = "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout";
 		};
-		AB2B7CAC43B19101424EA2F9632A924B /* PBXContainerItemProxy */ = {
+		E1EB565F6528688F2DA9666C02692284 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4C6916B5D00E282C05008B64C1A6CA5;
+			remoteGlobalIDString = AEB44E860B9B8D5FE1903E0A6EC82734;
 			remoteInfo = RJCircularCollectionViewLayout;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,67 +48,68 @@
 		06F6F65531BA2A9380290D2B32AEF5C9 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJCircularCollectionViewLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		10D1EB586D8E27A41A98F0938831BF32 /* Pods-RJCircularCollectionViewLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJCircularCollectionViewLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17E3DEBDC3B40F39E23AE4300996CE31 /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJCircularCollectionViewLayout_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D05DE7E9DA937EB72874CAC8128C6BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2606A67DFAC8D7B7A34DE913B9A472EF /* RJCircularCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJCircularCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E70621488AAD109A326E1871E66B4BC /* Pods-RJCircularCollectionViewLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCircularCollectionViewLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		333A762FBEEA2704F98A3C4F4B162280 /* Pods-RJCircularCollectionViewLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RJCircularCollectionViewLayout_Example.modulemap"; sourceTree = "<group>"; };
-		34E578504BE056F7FEA0148FB3F5906B /* RJCircularCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCircularCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40CE2B984DA160374BB945DC52C339A4 /* Pods_RJCircularCollectionViewLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJCircularCollectionViewLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B23E02C386E18D0044B1B8FE577DC /* RJCircularCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RJCircularCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		42B0F8E5D81DAD370D19D3F16069DADE /* Pods-RJCircularCollectionViewLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCircularCollectionViewLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		496E61752A380C411292D3A3D33A7916 /* Pods-RJCircularCollectionViewLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJCircularCollectionViewLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJCircularCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		57062ACF4E8B6724A042121057601A62 /* ResourceBundle-RJCircularCollectionViewLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RJCircularCollectionViewLayout-Info.plist"; sourceTree = "<group>"; };
+		5C86B7ACF68D42312789B8BE8D6C1C92 /* RJCircularCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCircularCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
 		5C93972B9251510A5E16C519CE24A9D3 /* Pods-RJCircularCollectionViewLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCircularCollectionViewLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6516EF0CC71D99FE92E4FBC2571EBEE4 /* Pods-RJCircularCollectionViewLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCircularCollectionViewLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6FDACABB988D0D484E6526038E6219AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJCircularCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
-		89A17B792471BC2371BFF8C7B1DCB186 /* RJCircularCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RJCircularCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		81F4632DE97740F35F9A9D951AC7AB00 /* RJCircularCollectionViewLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJCircularCollectionViewLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		931BDD0BF52045DDC82A5902420E7860 /* Pods-RJCircularCollectionViewLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJCircularCollectionViewLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F3B4BE844E8DEE0A5480A54376896E /* Pods-RJCircularCollectionViewLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJCircularCollectionViewLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9ACD52CD60E76D15288FA7EB802FD687 /* Pods_RJCircularCollectionViewLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJCircularCollectionViewLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B350BE0A1D70307534B3ADA02F460246 /* RJCircularCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCircularCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C1A4365EFF0568817981713399FFD7EA /* RJCircularCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJCircularCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		AEE2EB6CC98DCF1971089E8557F4C6D6 /* RJCircularCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCircularCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		BC565A0642D1B9DC0162818F343F2D30 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
 		C1E3E198AC2FC4FBD4B02D1972DC0A4B /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJCircularCollectionViewLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5FD62F1A61479054D4A01AB8F234627 /* RJCircularCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJCircularCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		C94BC1D367022568ADAFB2A310B60C93 /* Pods_RJCircularCollectionViewLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJCircularCollectionViewLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95CE162DAAC62220F13891C2899B772 /* Pods-RJCircularCollectionViewLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCircularCollectionViewLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD6B406F9A3DB09978A5694F67B575D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA89334E1D105A333BCC36E156B243DC /* RJCircularCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJCircularCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2C47E7192BD4F1C805A9EBFBACCA2B9 /* Pods_RJCircularCollectionViewLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJCircularCollectionViewLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2491926CA2C601D5052421ECBBA287C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35885DA7908E2B1D2E729B76EAF5898 /* Pods-RJCircularCollectionViewLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCircularCollectionViewLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E5AF25A6A1120D065DD5FC4836918AF8 /* Pods-RJCircularCollectionViewLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RJCircularCollectionViewLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		E5F8AFAF67914A3E920A38D861BC18AA /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
 		EAA9DBABA4A8BC9F42F9BBEF982E8015 /* Pods-RJCircularCollectionViewLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCircularCollectionViewLayout_Tests-resources.sh"; sourceTree = "<group>"; };
 		F3E6923B6AE1BD008A8152CB9E72C015 /* Pods-RJCircularCollectionViewLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJCircularCollectionViewLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6AAFD63F4B4F349E99E9977DEF1E9EB /* Pods-RJCircularCollectionViewLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCircularCollectionViewLayout_Example-resources.sh"; sourceTree = "<group>"; };
-		F74B1E93ED30625D164118AB184911DC /* RJCircularCollectionViewLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJCircularCollectionViewLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B0AC8271AF8F1E933CB325C85086483 /* Frameworks */ = {
+		20E3D230303A5F7A31D1599763F669CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F17DFFD8E06C136D2256491994F202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230716E27D74244D396A4AB9A1A1C5FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15C4CDF42F64081D3B02E7E597DA2F5 /* Frameworks */ = {
+		7B8BCF6CE6D17DA3E7C5CE45CF0B6E96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64EE333ADB623A5E72388053B111BD6B /* Foundation.framework in Frameworks */,
+				4A4329606B7A46F744390D70E95EC6F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6360C20C546730A4146FEDB4C0DCB91 /* Frameworks */ = {
+		7E7C9A2FE34C892ABCFBC4DB561F1DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757A19E9853C6A6FFDA99BC634695DD7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D483881D371BFF9E1C641501ED964475 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				871111C44DE2379EEC68E69E0441FAB3 /* Foundation.framework in Frameworks */,
+				93AF08F68C0E32B16BB8A01458331EAB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,27 +119,59 @@
 		191166ABD7B359F6232348B4B1EF3A4D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				473D4079750BF809EBCD9B699117DDA4 /* RJCircularCollectionViewLayout */,
+				E9DC80FD12F4463B96BA4288B8F68D23 /* RJCircularCollectionViewLayout */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		473D4079750BF809EBCD9B699117DDA4 /* RJCircularCollectionViewLayout */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				56FC67A91EFBC864B8776850757DBF2A /* Pod */,
-				FE6B9E805B52F69EC7405BD3145FB2F2 /* Support Files */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			name = RJCircularCollectionViewLayout;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		56FC67A91EFBC864B8776850757DBF2A /* Pod */ = {
+		451C1EAF760BAFEB1BE044110DF1F0B7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8929ED5C63202942A14CB82119107C2D /* Classes */,
+				4A1C6A4A1F8B0675369DFAA0623B6A5F /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		4A1C6A4A1F8B0675369DFAA0623B6A5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC565A0642D1B9DC0162818F343F2D30 /* CircularCollectionViewLayout.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F02BCC92AD0C6A490A7AA8337142A3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2491926CA2C601D5052421ECBBA287C /* Info.plist */,
+				57062ACF4E8B6724A042121057601A62 /* ResourceBundle-RJCircularCollectionViewLayout-Info.plist */,
+				403B23E02C386E18D0044B1B8FE577DC /* RJCircularCollectionViewLayout.modulemap */,
+				4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */,
+				C5FD62F1A61479054D4A01AB8F234627 /* RJCircularCollectionViewLayout-dummy.m */,
+				5C86B7ACF68D42312789B8BE8D6C1C92 /* RJCircularCollectionViewLayout-prefix.pch */,
+				AEE2EB6CC98DCF1971089E8557F4C6D6 /* RJCircularCollectionViewLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RJCircularCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		63488CF5CE2D584C48BD8246DD77C3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94BC1D367022568ADAFB2A310B60C93 /* Pods_RJCircularCollectionViewLayout_Example.framework */,
+				D2C47E7192BD4F1C805A9EBFBACCA2B9 /* Pods_RJCircularCollectionViewLayout_Tests.framework */,
+				81F4632DE97740F35F9A9D951AC7AB00 /* RJCircularCollectionViewLayout.bundle */,
+				2606A67DFAC8D7B7A34DE913B9A472EF /* RJCircularCollectionViewLayout.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6E9FB539C3D120E732249D5CEC761451 /* Targets Support Files */ = {
@@ -153,10 +186,10 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				191166ABD7B359F6232348B4B1EF3A4D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EB7CFB15302217F01FEE3170751EE140 /* Products */,
+				63488CF5CE2D584C48BD8246DD77C3F1 /* Products */,
 				6E9FB539C3D120E732249D5CEC761451 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -179,28 +212,12 @@
 			path = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example";
 			sourceTree = "<group>";
 		};
-		8929ED5C63202942A14CB82119107C2D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E5F8AFAF67914A3E920A38D861BC18AA /* CircularCollectionViewLayout.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D6EB8F350B3DBA8E1A2823573DC9020A /* Pods-RJCircularCollectionViewLayout_Tests */ = {
@@ -221,68 +238,71 @@
 			path = "Target Support Files/Pods-RJCircularCollectionViewLayout_Tests";
 			sourceTree = "<group>";
 		};
-		EB7CFB15302217F01FEE3170751EE140 /* Products */ = {
+		E9DC80FD12F4463B96BA4288B8F68D23 /* RJCircularCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				40CE2B984DA160374BB945DC52C339A4 /* Pods_RJCircularCollectionViewLayout_Example.framework */,
-				9ACD52CD60E76D15288FA7EB802FD687 /* Pods_RJCircularCollectionViewLayout_Tests.framework */,
-				F74B1E93ED30625D164118AB184911DC /* RJCircularCollectionViewLayout.bundle */,
-				DA89334E1D105A333BCC36E156B243DC /* RJCircularCollectionViewLayout.framework */,
+				451C1EAF760BAFEB1BE044110DF1F0B7 /* Pod */,
+				4F02BCC92AD0C6A490A7AA8337142A3A /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FE6B9E805B52F69EC7405BD3145FB2F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D05DE7E9DA937EB72874CAC8128C6BF /* Info.plist */,
-				89A17B792471BC2371BFF8C7B1DCB186 /* RJCircularCollectionViewLayout.modulemap */,
-				72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */,
-				C1A4365EFF0568817981713399FFD7EA /* RJCircularCollectionViewLayout-dummy.m */,
-				34E578504BE056F7FEA0148FB3F5906B /* RJCircularCollectionViewLayout-prefix.pch */,
-				B350BE0A1D70307534B3ADA02F460246 /* RJCircularCollectionViewLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RJCircularCollectionViewLayout";
+			name = RJCircularCollectionViewLayout;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2236F5ACCFE7AFFA6B487396335A2B69 /* Headers */ = {
+		58D6DD86D4BF712E7F1F4452BA2C0965 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4705033897157594A59A6ACE62AE5F /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h in Headers */,
+				0F4C4E350BCCCDD68956EC4FF4A43EB8 /* RJCircularCollectionViewLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49C712E14021EF776B9AA47B92A705B5 /* Headers */ = {
+		7C847DFE9521AD15BA368AD1451967D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A31818E644D31A5D27366824589416 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h in Headers */,
+				C5C1311A9A835EB230BDD7CD4063E9BC /* Pods-RJCircularCollectionViewLayout_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D7184C1E1D5A0001A1FECBCBB9CF992 /* Headers */ = {
+		A0890F50E30D258569F516ABDAE5EC48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66751D86DEAA34357A57018FB4E425A /* RJCircularCollectionViewLayout-umbrella.h in Headers */,
+				D58534459110372EC14C67E0D6A166F8 /* Pods-RJCircularCollectionViewLayout_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D923918F6FC3FC716C850E3B0EC7BA5 /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */ = {
+		827CD69D59051327C1F7A75D3991F62A /* Pods-RJCircularCollectionViewLayout_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCCF85D14E4BC60D07142DE7D94924D4 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout" */;
+			buildConfigurationList = 122AC52301DADF29272CE0CB9FF7B1AF /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Tests" */;
 			buildPhases = (
-				139BA2AE573E4A0235B403DC8D6802BF /* Sources */,
-				6B0AC8271AF8F1E933CB325C85086483 /* Frameworks */,
-				D9B360D76B11871246B3F3F76655F3B5 /* Resources */,
+				49944F5488A29C2ED16124A03553B79B /* Sources */,
+				20E3D230303A5F7A31D1599763F669CB /* Frameworks */,
+				A0890F50E30D258569F516ABDAE5EC48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21353A51052F9E65720B438F3F4FE41 /* PBXTargetDependency */,
+			);
+			name = "Pods-RJCircularCollectionViewLayout_Tests";
+			productName = "Pods-RJCircularCollectionViewLayout_Tests";
+			productReference = D2C47E7192BD4F1C805A9EBFBACCA2B9 /* Pods_RJCircularCollectionViewLayout_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DA92D7D5E06A417C75EA0AD690DEA3B /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05E8B69BFA43ED3D22BF0B265C29B23 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout" */;
+			buildPhases = (
+				161D44C340513B6570F5ACF42535089A /* Sources */,
+				230716E27D74244D396A4AB9A1A1C5FB /* Frameworks */,
+				C48DE47CC0D3615FFD27F89707DC497D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,62 +310,44 @@
 			);
 			name = "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout";
 			productName = "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout";
-			productReference = F74B1E93ED30625D164118AB184911DC /* RJCircularCollectionViewLayout.bundle */;
+			productReference = 81F4632DE97740F35F9A9D951AC7AB00 /* RJCircularCollectionViewLayout.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		8F43C0D119C9D499D1DD134FE06D1B21 /* Pods-RJCircularCollectionViewLayout_Example */ = {
+		AEB44E860B9B8D5FE1903E0A6EC82734 /* RJCircularCollectionViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E04FCE140C3C4600851557D57E78F213 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Example" */;
+			buildConfigurationList = 464DE14D10F702DD4225643CCF2670F9 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout" */;
 			buildPhases = (
-				99AE0DB106642C94154CC3C2F92BB7A1 /* Sources */,
-				C6360C20C546730A4146FEDB4C0DCB91 /* Frameworks */,
-				2236F5ACCFE7AFFA6B487396335A2B69 /* Headers */,
+				145445128050874E72FE8B7013D2DBB7 /* Sources */,
+				7E7C9A2FE34C892ABCFBC4DB561F1DE8 /* Frameworks */,
+				7B171C51F454A435B52FEEC4AD99D9F9 /* Resources */,
+				58D6DD86D4BF712E7F1F4452BA2C0965 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F70D43E05646B55AE7BE66EEDDD3341 /* PBXTargetDependency */,
-			);
-			name = "Pods-RJCircularCollectionViewLayout_Example";
-			productName = "Pods-RJCircularCollectionViewLayout_Example";
-			productReference = 40CE2B984DA160374BB945DC52C339A4 /* Pods_RJCircularCollectionViewLayout_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4C6916B5D00E282C05008B64C1A6CA5 /* RJCircularCollectionViewLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD84CB516F9C294E211F431D4B5C050 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout" */;
-			buildPhases = (
-				D0388A82D4F361BFD8B5549AEF8066EB /* Sources */,
-				A15C4CDF42F64081D3B02E7E597DA2F5 /* Frameworks */,
-				FB2A6A34AA1B1A37E123F94AA859915C /* Resources */,
-				9D7184C1E1D5A0001A1FECBCBB9CF992 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F296572FDBE72EBE0DE828C949D62FD3 /* PBXTargetDependency */,
+				462982AD2AA5EEAF94FCC6C5812A6C41 /* PBXTargetDependency */,
 			);
 			name = RJCircularCollectionViewLayout;
 			productName = RJCircularCollectionViewLayout;
-			productReference = DA89334E1D105A333BCC36E156B243DC /* RJCircularCollectionViewLayout.framework */;
+			productReference = 2606A67DFAC8D7B7A34DE913B9A472EF /* RJCircularCollectionViewLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F24161DE47C3DB57B3514352C23A01DC /* Pods-RJCircularCollectionViewLayout_Tests */ = {
+		CED51D66433C72E93B8B412F67452B08 /* Pods-RJCircularCollectionViewLayout_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF7CE923AAD4F989AB1807FBFD2A0815 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Tests" */;
+			buildConfigurationList = 618F5878E5D4515E7BE3DB6208CAF949 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Example" */;
 			buildPhases = (
-				FBCF2D8298BF2C22E8A49EDD4FC110B3 /* Sources */,
-				D483881D371BFF9E1C641501ED964475 /* Frameworks */,
-				49C712E14021EF776B9AA47B92A705B5 /* Headers */,
+				B6A2AC6133A4948F0BDF0D156D7EDC67 /* Sources */,
+				7B8BCF6CE6D17DA3E7C5CE45CF0B6E96 /* Frameworks */,
+				7C847DFE9521AD15BA368AD1451967D6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD0392863FACC88192D86FE61F6B07F1 /* PBXTargetDependency */,
+				CF09840D50459165D8B6D5E22CF1ADB7 /* PBXTargetDependency */,
 			);
-			name = "Pods-RJCircularCollectionViewLayout_Tests";
-			productName = "Pods-RJCircularCollectionViewLayout_Tests";
-			productReference = 9ACD52CD60E76D15288FA7EB802FD687 /* Pods_RJCircularCollectionViewLayout_Tests.framework */;
+			name = "Pods-RJCircularCollectionViewLayout_Example";
+			productName = "Pods-RJCircularCollectionViewLayout_Example";
+			productReference = C94BC1D367022568ADAFB2A310B60C93 /* Pods_RJCircularCollectionViewLayout_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -354,8 +356,19 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					827CD69D59051327C1F7A75D3991F62A = {
+						LastSwiftMigration = 0800;
+					};
+					AEB44E860B9B8D5FE1903E0A6EC82734 = {
+						LastSwiftMigration = 0800;
+					};
+					CED51D66433C72E93B8B412F67452B08 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,138 +378,106 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EB7CFB15302217F01FEE3170751EE140 /* Products */;
+			productRefGroup = 63488CF5CE2D584C48BD8246DD77C3F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F43C0D119C9D499D1DD134FE06D1B21 /* Pods-RJCircularCollectionViewLayout_Example */,
-				F24161DE47C3DB57B3514352C23A01DC /* Pods-RJCircularCollectionViewLayout_Tests */,
-				A4C6916B5D00E282C05008B64C1A6CA5 /* RJCircularCollectionViewLayout */,
-				3D923918F6FC3FC716C850E3B0EC7BA5 /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */,
+				CED51D66433C72E93B8B412F67452B08 /* Pods-RJCircularCollectionViewLayout_Example */,
+				827CD69D59051327C1F7A75D3991F62A /* Pods-RJCircularCollectionViewLayout_Tests */,
+				AEB44E860B9B8D5FE1903E0A6EC82734 /* RJCircularCollectionViewLayout */,
+				9DA92D7D5E06A417C75EA0AD690DEA3B /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9B360D76B11871246B3F3F76655F3B5 /* Resources */ = {
+		7B171C51F454A435B52FEEC4AD99D9F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76256C194509BF7F97B2298DA04A755 /* RJCircularCollectionViewLayout.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB2A6A34AA1B1A37E123F94AA859915C /* Resources */ = {
+		C48DE47CC0D3615FFD27F89707DC497D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6519D72661D7E727AC00615E6498106 /* RJCircularCollectionViewLayout.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		139BA2AE573E4A0235B403DC8D6802BF /* Sources */ = {
+		145445128050874E72FE8B7013D2DBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4693FBB22F7AFB8DF43CAA99A2232144 /* CircularCollectionViewLayout.swift in Sources */,
+				3D5B79D7E2E63435DBEA315167129FB6 /* RJCircularCollectionViewLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		161D44C340513B6570F5ACF42535089A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99AE0DB106642C94154CC3C2F92BB7A1 /* Sources */ = {
+		49944F5488A29C2ED16124A03553B79B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF86544E22027DB4DB0A515801CDC91E /* Pods-RJCircularCollectionViewLayout_Example-dummy.m in Sources */,
+				3074939B31F4A98D459EFB0185A87997 /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0388A82D4F361BFD8B5549AEF8066EB /* Sources */ = {
+		B6A2AC6133A4948F0BDF0D156D7EDC67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5BFA397E8EF1C97742F0249386A7E5 /* CircularCollectionViewLayout.swift in Sources */,
-				C1F4EA13516BC9F40DC295083D5209FE /* RJCircularCollectionViewLayout-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBCF2D8298BF2C22E8A49EDD4FC110B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9249EEE51CFC6DB34EC2D1C472477D /* Pods-RJCircularCollectionViewLayout_Tests-dummy.m in Sources */,
+				3D563FED4CA82D9C985D01139FE6F34D /* Pods-RJCircularCollectionViewLayout_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F70D43E05646B55AE7BE66EEDDD3341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RJCircularCollectionViewLayout;
-			target = A4C6916B5D00E282C05008B64C1A6CA5 /* RJCircularCollectionViewLayout */;
-			targetProxy = 54B4ED30155014DFBE24B7E1D4264022 /* PBXContainerItemProxy */;
-		};
-		DD0392863FACC88192D86FE61F6B07F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RJCircularCollectionViewLayout;
-			target = A4C6916B5D00E282C05008B64C1A6CA5 /* RJCircularCollectionViewLayout */;
-			targetProxy = AB2B7CAC43B19101424EA2F9632A924B /* PBXContainerItemProxy */;
-		};
-		F296572FDBE72EBE0DE828C949D62FD3 /* PBXTargetDependency */ = {
+		462982AD2AA5EEAF94FCC6C5812A6C41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout";
-			target = 3D923918F6FC3FC716C850E3B0EC7BA5 /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */;
-			targetProxy = 6BF308DD9EB5EA766F282A3D88EBDE7F /* PBXContainerItemProxy */;
+			target = 9DA92D7D5E06A417C75EA0AD690DEA3B /* RJCircularCollectionViewLayout-RJCircularCollectionViewLayout */;
+			targetProxy = 3F33741E08AE5A2B0DE193E194B64711 /* PBXContainerItemProxy */;
+		};
+		CF09840D50459165D8B6D5E22CF1ADB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RJCircularCollectionViewLayout;
+			target = AEB44E860B9B8D5FE1903E0A6EC82734 /* RJCircularCollectionViewLayout */;
+			targetProxy = 2671AC46D1AE0FE1D06083A0AC0019CB /* PBXContainerItemProxy */;
+		};
+		D21353A51052F9E65720B438F3F4FE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RJCircularCollectionViewLayout;
+			target = AEB44E860B9B8D5FE1903E0A6EC82734 /* RJCircularCollectionViewLayout */;
+			targetProxy = E1EB565F6528688F2DA9666C02692284 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		14FA93E63F6FABB12C95B71C0695BE4E /* Debug */ = {
+		3A6BFC74DC3AC726CC24BEAB50177DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42B0F8E5D81DAD370D19D3F16069DADE /* Pods-RJCircularCollectionViewLayout_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -507,60 +488,57 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_RJCircularCollectionViewLayout_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		17BF85AB300EB6F1655689E97E366A64 /* Debug */ = {
+		42E206C26D1F6E0F5676BA0293D7F3D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */;
+			baseConfigurationReference = 4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RJCircularCollectionViewLayout";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RJCircularCollectionViewLayout/ResourceBundle-RJCircularCollectionViewLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = RJCircularCollectionViewLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		3C913A9A7A333752651472F8356D87AC /* Debug */ = {
+		53F481AF14DB00DB6A538E2095150CEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */;
+			baseConfigurationReference = 4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RJCircularCollectionViewLayout";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RJCircularCollectionViewLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RJCircularCollectionViewLayout/ResourceBundle-RJCircularCollectionViewLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = RJCircularCollectionViewLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -574,11 +552,88 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F8CF178970DE4CEE1999B7A009CABFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C93972B9251510A5E16C519CE24A9D3 /* Pods-RJCircularCollectionViewLayout_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example/Pods-RJCircularCollectionViewLayout_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJCircularCollectionViewLayout_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -591,49 +646,56 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5D9433720017F6557EB64126DF72A8A3 /* Release */ = {
+		B08CBC86BBC9C67789F2FF6525231A8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */;
+			baseConfigurationReference = 4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RJCircularCollectionViewLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = RJCircularCollectionViewLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		795097BA5D7323DA05CF38655240D6A3 /* Release */ = {
+		BA9978278149121D113B922BAC9B02E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C95CE162DAAC62220F13891C2899B772 /* Pods-RJCircularCollectionViewLayout_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -644,68 +706,30 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_RJCircularCollectionViewLayout_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		845E83D06BCF979FC03B47E058A44820 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E00534D9A2E0130A43269AF7E776CA /* RJCircularCollectionViewLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RJCircularCollectionViewLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		94CE20B437D5E6CACF8A1D6A000D6F6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C93972B9251510A5E16C519CE24A9D3 /* Pods-RJCircularCollectionViewLayout_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example/Pods-RJCircularCollectionViewLayout_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RJCircularCollectionViewLayout_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6F9BE09A3896F043079479ECF1BB1F4 /* Debug */ = {
+		C9AC2300A7B211C146EB89B4132EF888 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E70621488AAD109A326E1871E66B4BC /* Pods-RJCircularCollectionViewLayout_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RJCircularCollectionViewLayout_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -716,24 +740,56 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_RJCircularCollectionViewLayout_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		DDBD6F880E4170F1F3A54B08C10778E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8434AFB1851CFE5DF8EEE9D4C8748A /* RJCircularCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RJCircularCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RJCircularCollectionViewLayout/RJCircularCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RJCircularCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD84CB516F9C294E211F431D4B5C050 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout" */ = {
+		122AC52301DADF29272CE0CB9FF7B1AF /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C913A9A7A333752651472F8356D87AC /* Debug */,
-				5D9433720017F6557EB64126DF72A8A3 /* Release */,
+				3A6BFC74DC3AC726CC24BEAB50177DE9 /* Debug */,
+				BA9978278149121D113B922BAC9B02E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -741,35 +797,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF7CE923AAD4F989AB1807FBFD2A0815 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Tests" */ = {
+		464DE14D10F702DD4225643CCF2670F9 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14FA93E63F6FABB12C95B71C0695BE4E /* Debug */,
-				795097BA5D7323DA05CF38655240D6A3 /* Release */,
+				B08CBC86BBC9C67789F2FF6525231A8B /* Debug */,
+				DDBD6F880E4170F1F3A54B08C10778E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCCF85D14E4BC60D07142DE7D94924D4 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout" */ = {
+		618F5878E5D4515E7BE3DB6208CAF949 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17BF85AB300EB6F1655689E97E366A64 /* Debug */,
-				845E83D06BCF979FC03B47E058A44820 /* Release */,
+				C9AC2300A7B211C146EB89B4132EF888 /* Debug */,
+				8F8CF178970DE4CEE1999B7A009CABFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E04FCE140C3C4600851557D57E78F213 /* Build configuration list for PBXNativeTarget "Pods-RJCircularCollectionViewLayout_Example" */ = {
+		E05E8B69BFA43ED3D22BF0B265C29B23 /* Build configuration list for PBXNativeTarget "RJCircularCollectionViewLayout-RJCircularCollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6F9BE09A3896F043079479ECF1BB1F4 /* Debug */,
-				94CE20B437D5E6CACF8A1D6A000D6F6C /* Release */,
+				42E206C26D1F6E0F5676BA0293D7F3D7 /* Debug */,
+				53F481AF14DB00DB6A538E2095150CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

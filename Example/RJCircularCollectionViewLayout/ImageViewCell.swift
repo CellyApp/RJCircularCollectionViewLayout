@@ -20,7 +20,7 @@ class ImageViewCell: BaseCircularCollectionViewCell {
         // Initialization code
         self.imageView.layer.cornerRadius = cornerRadius
         self.imageView.layer.shouldRasterize = true
-        self.imageView.layer.rasterizationScale = UIScreen.mainScreen().scale
+        self.imageView.layer.rasterizationScale = UIScreen.main.scale
         self.contentView.layer.shadowOffset = CGSize(width: -3, height: 0)
         self.contentView.layer.shadowOpacity = 0.7
         self.contentView.layer.shadowRadius = 10
@@ -28,7 +28,7 @@ class ImageViewCell: BaseCircularCollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.contentView.layer.shadowPath = UIBezierPath(roundedRect: self.contentView.bounds, cornerRadius: cornerRadius).CGPath
+        self.contentView.layer.shadowPath = UIBezierPath(roundedRect: self.contentView.bounds, cornerRadius: cornerRadius).cgPath
     }
 
 }

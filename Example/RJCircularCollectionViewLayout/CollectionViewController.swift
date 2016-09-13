@@ -12,7 +12,7 @@ private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController {
     
-    let images: [String] = NSBundle.mainBundle().pathsForResourcesOfType("jpg", inDirectory: "Images")
+    let images: [String] = Bundle.main.paths(forResourcesOfType: "jpg", inDirectory: "Images")
     
     var dataSource: [String] = []
     
@@ -22,13 +22,13 @@ class CollectionViewController: UICollectionViewController {
         super.viewDidLoad()
 
         // Register cell classes
-        collectionView!.registerNib(UINib(nibName: "ImageViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+        collectionView!.register(UINib(nibName: "ImageViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
-        gradientLayer.colors = [UIColor(red:0.1107, green:0.7848, blue:0.7686, alpha:1.0).CGColor,
-            UIColor(red:0.0739, green:0.0848, blue:0.4347, alpha:1.0).CGColor]
+        gradientLayer.colors = [UIColor(red:0.1107, green:0.7848, blue:0.7686, alpha:1.0).cgColor,
+            UIColor(red:0.0739, green:0.0848, blue:0.4347, alpha:1.0).cgColor]
         gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
-        view.layer.insertSublayer(gradientLayer, atIndex: 0)
+        view.layer.insertSublayer(gradientLayer, at: 0)
         
     }
 
@@ -44,13 +44,13 @@ class CollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.images.count
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! ImageViewCell
-        cell.imageView.image = UIImage(named: self.images[indexPath.item])!
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ImageViewCell
+        cell.imageView.image = UIImage(named: self.images[(indexPath as NSIndexPath).item])!
         return cell
     }
 
